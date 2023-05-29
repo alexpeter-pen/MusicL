@@ -1,0 +1,12 @@
+::key C#
+
+::tempo:3:4
+\Tempo used is three quarters
+
+::tempo:3.4:2.4
+\Compound tempo
+
+::speed 90
+
+::duration 01234567 / 1/2^n
+::duration 1248    / 1/n

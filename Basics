@@ -11,4 +11,7 @@ The reason for using other alphabet might be the audience the notation is intend
 
 The extension for the file containing this notation is .mlq
 
-Basic rule in MusicL is that everything must be declared before it is used. If something is not declared, its usage is inferred and if so it must be consistent through the same file.
+Basic rule in MusicL is that everything must be declared before it is used.
+If something is not declared, its usage is inferred and if so it must be consistent through the same file.
+
+Any declaration can be shortened ::key to ::k and similar if its usage is clear.

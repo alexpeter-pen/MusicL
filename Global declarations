@@ -1,12 +1,18 @@
+::notes cdefgabcCDEFGABC
+\Declaring letters reserved for notes, later on, it can be declared what each case means
+
 ::key C#
-
-::tempo:3:4
-\Tempo used is three quarters
-
-::tempo:3.4:2.4
-\Compound tempo
+\Key used throughout the composition
 
 ::speed 90
 
 ::duration 01234567 / 1/2^n
 ::duration 1248    / 1/n
+
+::tempo:3:4
+\Tempo used is three quarters
+
+::tempo:3:2:4
+\Compound tempo 5/4 = 3+2/4. It is assumed that the last number corresponds to the main unit, in the case above it is 4
+\More complicated tempo cases might 
+

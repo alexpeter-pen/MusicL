@@ -13,7 +13,7 @@
   
   d4:l e: d:
   
-  Inherited attributes are clarified by empty :
+  Inherited attributes are clarified by empty : \
   **l** in d4:**l** means legato here and these three tones have the same duration of a quarter and are connected. In standard notation that would be
   
   ![image](https://github.com/alexpeter-pen/MusicL/assets/118837759/487ad4ec-1e14-4121-a893-fe7fe055e107)
@@ -21,10 +21,12 @@
 All other attributes are defined similarly, they are attached to a specific note, or a group of notes, where it is declared in the notation what meaning the used letter has. For example, somewhere we define an attribute description.
 
 ::legato:fluid:1234
-\This specifies that :l means legato and that overlapped appearances will be marked by l1 l2 l3 and l4, when necessary
+
+$ This specifies that :l means legato and that overlapped appearances will be marked by l1 l2 l3 and l4, when necessary
 
 ::slur:rhythm
-\This specifies that :s means slur and is used to define a rhythmic local group.
+
+$ This specifies that :s means slur and is used to define a rhythmic local group.
 
 s:a8b8d8 p8
 

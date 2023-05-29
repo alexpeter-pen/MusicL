@@ -15,15 +15,15 @@ Anything that is used in the notation should be defined within context. For exam
 
 In this example, we introduce a notation for comment first and then duration. 0 in first, and 1 in the second line means a whole note.
 
-::comment /
+::comment \
 
-::duration 01234567 / 1/2^n
+::duration 01234567 \ 1/2^n
 
-::duration 1248    / 1/n
+::duration 1248    \ 1/n
 
 Besides describing all the details as above, the language is based on vertical and horizontal synchronization context. For example, we can write a melody as
 
-::notes cdefgahb p / defines letters used for notes and pause
+::notes cdefgahb p \ defines letters used for notes and pause
 
 piano:g4a4p4h8c4p4d2
 
@@ -37,9 +37,9 @@ Vertical synchronization allows writing parallel melody lines and instrument
 
 An example of a series of chords
 
-piano: cgac
-           ebce
-           gdeg
+    piano:     cgac
+               ebce
+               gdeg
 
 or instrumentation
 

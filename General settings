@@ -1,0 +1,14 @@
+::comment \
+A declaration that describes that comment is any line starting with \
+
+as in
+
+\ This declaration describes the character used for comment
+
+::encoding utf-8
+
+\ Defining encoding necessary to properly read the file
+
+::font CourierNew
+
+\ Defining a font that is most suitable for visualizing the content

@@ -34,9 +34,9 @@ $ Synonym for ::vertical
 
     ::staff:q
     ::transpose:e:2:',
-    ::bars            b			    b 
+    ::bars            b		  b 
     ::metronom            m		  m 
-              violin: a+4 h8  c-2  3fga 
+              violin: a+4 h8  c-2  3fga
               viola:  g:q p:q p4:q f2
               bass:   h   d:l d:   d,
 

@@ -1,15 +1,21 @@
 ::comment $
-A declaration that describes that comment is any line starting with $ \
+
+A declaration that describes that comment is any line starting with $
+
 Any character without ambiguity can be used.
 
-as in \
-$This declaration describes the character used for commenting
+as in
 
-::encoding utf-8 \
+$ This declaration describes the character used for commenting
+
+::encoding utf-8
+
 $ Defining encoding necessary to properly read the file
 
-::font CourierNew \
+::font CourierNew
+
 $ Defining a font that is most suitable for visualizing the content
 
-::continuation:<filename>.mlq \
+::continuation:<filename>.mlq
+
 $ The previous file that this file continues. It is assumed that the file has a unique name or that it is in the same folder.

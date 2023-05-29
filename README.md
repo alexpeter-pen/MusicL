@@ -18,6 +18,7 @@ In this example, we introduce a notation for comment first and then duration. 0 
 ::comment /
 
 ::duration 01234567 / 1/2^n
+
 ::duration 1248    / 1/n
 
 Besides describing all the details as above, the language is based on vertical and horizontal synchronization context. For example, we can write a melody as

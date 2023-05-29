@@ -2,7 +2,7 @@ MusicL is using : and :: for describing musical content. These symbols cannot be
 
 :: is describing context like ::key ::tempo, so it is a definition name and is followed by description
 
-In ::<declaration>, <declaration> is a word that is standardly adopted word that has the most common meaning \
+In ::<<declaration>>, <<declaration>> is a word that is standardly adopted word that has the most common meaning \
 There is no space in <declaration> name, and this is mandatory. \
 An optional, but recommended rule, is that the only acceptable another symbol apart from ASCII letters is - or _, but just one of them in the same file. \
 The reason for using another alphabet might be the audience the notation is intended for.

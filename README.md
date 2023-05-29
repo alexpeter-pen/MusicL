@@ -47,7 +47,7 @@ or instrumentation
               viola:  g   p   p4   f2
               bass:   h   d:l d:   d<
 
-If vertical synchronization context is used, there should be a font declaration that specifies how to read files, in this text we used Courier font but generally this is not known to the reader so it must be specified.
+If vertical synchronization context is used, it is recommendable to have a font declaration that specifies how to read files, in this text we used Courier font but generally this is not known to the reader so it might be specified. Vertical content should be aligned to some degree, not necessarily note by note.
 
 ::font CourierNew
 
@@ -55,6 +55,8 @@ Equally, we can specify the encoding used
 
 ::encoding utf-8
 
+In all these examples ::font:CourierNew or ::encoding:utf-8 is equivalent however : is used where we need to add more attributes like ::transpose:e:2.
+
 This allows using extended Unicode notation, for example, we can use C𝄳 if we need to.
 
-The language specification is strict in some sense, but as long as you do not assume that people understand what you mean, and properly define everything through the context, you can extend the language in any desired direction. So the language specification defines or suggests a couple of basic notational standards in order to learn how to properly describe the notation used, rather than explaining everything that is possible to annotate through the language.
+The language specification is strict in some sense, but as long as you do not assume that people understand what you mean, and properly define everything through the context, you can extend the language in any desired direction. So the language specification defines or suggests a couple of basic notational standards to learn how to properly describe the notation used, rather than explaining everything possible to annotate through the language.

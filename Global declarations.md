@@ -1,50 +1,57 @@
 ::notes cdefgabcCDEFGABC
-\Declaring letters reserved for notes, later on, it can be declared what each case means
+$ Declaring letters reserved for notes, later on, it can be declared what each case means
 
 ::accidentals:C+C-Cn
-\Declaring accidentals used, Cn means C neutral
+$ Declaring accidentals used, Cn means C neutral
 
 ::accidentals:C#C♭C♮
-\Another option for accidentals
+$ Another option for accidentals
 
-\The above examples are typical. Notice that + and - might not be used easily somewhere else
+$ The above examples are typical. Notice that + and - might not be used easily somewhere else
 
-\We can use semi-accidentals too, but it must be specified with the corresponding symbol
+$ We can use semi-accidentals too, but it must be specified with the corresponding symbol
 
 ::key C#
-\Key used throughout the composition
+$ Key used throughout the composition
 
 ::pitch:A:440
-\Standard pitch used within the composition
+$ Standard pitch used within the composition
 
 ::intonation:ET
-\Used intonation, ET stands for equal temperament
+$ Used intonation, ET stands for equal temperament
 
 ::scale:12
-\Standard 12-tone scale used
+$ Standard 12-tone scale used
 
 ::scale:lydian
-\If this information is relevant, then it can be easily stated, notice that this is then combined with key or stated together like ::scale:lydian:C#
+$ If this information is relevant, then it can be easily stated, notice that this is then combined with key or stated together like ::scale:lydian:C#
 
 ::scale:wwhwh3hh
-\Another way of defining the scale used, w - whole step, h - half step
+$ Another way of defining the scale used, w - whole step, h - half step
 
 ::speed 90
 ::speed legatto
-\Nominal speed. If in numbers, normally defined in bit per minute, bpm, again it can be clarified
+$ Nominal speed. If in numbers, normally defined in bit per minute, bpm, again it can be clarified
 
-::duration 01234567 \ 1/2^n
-::duration 1248    \ 1/n
-\These are two standard ways of marking duration. For readability, it is not recommendable to use 16 or 32.
-\A compound duration is achieved by concatenating durations like 12, 24, 124, so we assume that basic duration is just one character long
-\It is possible to use 3,5,7,9 with the meaning clear from the context
+::duration 01234567 $  1/2^n
+
+::duration 1248    $  1/n
+
+$ These are two standard ways of marking duration. For readability, it is not recommendable to use 16 or 32.
+
+$ A compound duration is achieved by concatenating durations like 12, 24, 124, so we assume that basic duration is just one character long
+
+$ It is possible to use 3,5,7,9 with the meaning clear from the context
 
 ::tempo:3:4
-\Tempo used is three quarters. We can use ::tempo:c meaning common tempo.
+
+$ Tempo used is three quarters. We can use ::tempo:c meaning common tempo.
 
 ::tempo:3:2:4
-\Compound tempo 5/4 = 3+2/4. It is assumed that the last number corresponds to the main unit, in the case above it is 4
-\More complicated tempo cases might be defined using labels
+
+$ Compound tempo 5/4 = 3+2/4. It is assumed that the last number corresponds to the main unit, in the case above it is 4
+
+$ More complicated tempo cases might be defined using labels
 
 ::tempo:3:2:q
 ::tempo:2:3:t
@@ -53,16 +60,16 @@
 
 ::transpose:e:2:><
 ::transpose:e:2:',
-\Transpose is defining the first note, octave that does not require a special mark, and marks used for upper and lower octaves, the example is showing two possible choices
-\For example, after this declaration a melody de'd means that e is taken from the third octave, one octave above
-\efgabcd these letters if used would assume that they are from the same second octave
-\e,f,g,a,b,c,d, these are from the octave bellow
-\e'f'g'a'b'c'd' these are from the octave above
-\e'' this e is from two octaves above
+$ Transpose is defining the first note, octave that does not require a special mark, and marks used for upper and lower octaves, the example is showing two possible choices
+$ For example, after this declaration a melody de'd means that e is taken from the third octave, one octave above
+$ efgabcd these letters if used would assume that they are from the same second octave
+$ e,f,g,a,b,c,d, these are from the octave bellow
+$ e'f'g'a'b'c'd' these are from the octave above
+$ e'' this e is from two octaves above
 
 tone:octave:C:0:3
 tone:octave:c:4:10
-\To clarify how various cases can be used, this defines the usage of cases upper and lower depending on octave as in
+$ To clarify how various cases can be used, this defines the usage of cases upper and lower depending on octave as in
 
 Traditional	Helmholtz
 0  subsubcontra	C͵͵͵ – B͵͵͵
@@ -79,7 +86,6 @@ Traditional	Helmholtz
 	
 tone:chord:C:major
 tone:chord:c:minor
-\Within chords cases may have a different meaning
+$ Within chords cases may have a different meaning
 
 If a declaration of any kind is omitted, it is either arbitrary or most common.
-

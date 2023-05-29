@@ -103,7 +103,7 @@ Traditional	Helmholtz \
 7  three-lined	c′′′ – b′′′ \
 8  four-lined	c′′′′ – b′′′′ \
 9  five-lined	c′′′′′ – b′′′′′ \
-10 six-lined	c′′′′′′ – b′′′′′′ \
+10 six-lined	c′′′′′′ – b′′′′′′
 	
 tone:chord:C:major
 

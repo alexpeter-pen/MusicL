@@ -1,0 +1,14 @@
+MusicL is using : and :: for describing musical content. These symbols cannot be used for any other purpose.
+
+:: is describing context like ::key ::tempo, so it is a definition name and is followed by decription
+
+In ::<declaration>, <declaration> is a word that is standardly addopted word that has the most common meaning
+There is no space in <declaration> name, and this is mandatory.
+Optional, but recomended rule, is that the only acceptable other symbol apart from ASCII letters is - or _, but just one of them in the same file.
+The reason for using other alphabet might be the audience the notation is intended for.
+
+: is used to clarify the item, or to connect the item with predefined context or among themselves. d:s could mean d with stacatto. Equally 3:4 means 3 quarter rhythm.
+
+The extension for the file containing this notation is .mlq
+
+Basic rule in MusicL is that everything must be declared before it is used. If something is not declared, its usage is inferred and if so it must be consistent through the same file.

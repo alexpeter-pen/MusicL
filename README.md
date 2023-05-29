@@ -6,13 +6,13 @@ Regarding programming language part it is consisting of two symbols :: and : tha
 
 :: describes context and this includes for example ::key ::tempo ::speed ::tranpose ::bars ::metronom
 
-: describes specification or attribute for example ::transpose:e:2:>< means that the piece has a base note e in second octave, so all efgabcd in the notation belong to this octave, while octave above or bellow is marked with > and < respectively for example a melody part cde>c
+: describes specification or attribute for example ::transpose:e:2:', means that the piece has a base note e in second octave, so all efgabcd in the notation belong to this octave, while octave above or bellow is marked with ' and , respectively for example a melody part cde'c
 
-Where used space means separation and no space means a potential grouping. A group is used where the same attribute is applicable to a series of concatenated notes.
+When used, a space means separation. No space means a potential grouping. A group is used where the same attribute or tuplet is applicable to a series of concatenated notes.
 
-Anything that is used in the notation should be defined within context. For example we can use 12345678 for marking duration or 1248, but this needs to be spelled out.
+Anything that is used in the notation should be defined within context. For example we can use 012345678 for marking duration or 1248, but this needs to be spelled out.
 
-(It is a general aim to use only one character wherever possible in the notation for anything so it is not advisable to use 12481632 for marking duration.)
+(It is a general aim to use only one character wherever possible in the notation for anything so it is not advisable to use something like 12481632 for marking duration.)
 
 In this example, we introduce a notation for comment first and then duration. 0 in first, and 1 in the second line means a whole note.
 

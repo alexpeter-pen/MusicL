@@ -5,6 +5,7 @@ This is a language for musical notation that is text-based but as capable as sta
 Regarding programming language part it is consisting of two symbols :: and : that are reserved and cannot be used for anything else and accepted symbols like cdefghc for notes.
 
 :: describes context and this includes for example ::key ::tempo ::speed ::tranpose ::bars ::metronom
+
 : describes specification or attribute for example ::transpose:e:2:>< means that the piece has a base note e in second octave, so all efgabcd in the notation belong to this octave, while octave above or bellow is marked with > and < respectively for example a melody part cde>c
 
 Where used space means separation and no space means a potential grouping. A group is used where the same attribute is applicable to a series of concatenated notes.

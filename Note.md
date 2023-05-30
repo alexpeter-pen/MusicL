@@ -9,12 +9,12 @@
   
   ![image](https://github.com/alexpeter-pen/MusicL/assets/118837759/07db6909-38b0-4f54-bdde-8ebc0e72d097)
 
-  Spaces are added for clarification, the notation should work even when they are removed. Notice that the second g has no accident, it is inherited.
+Spaces are here added for clarification, the notation should generaly work even when they are removed. Anyway missing spaces suggest groupin and used space suggests separation. Notice that the second g has no accident, it is inherited, and this is one of the rules that is adopted from the standard notation.
   
   d4:l e: d:
   
   Inherited attributes are clarified by empty : \
-  **l** in d4:**l** means legato here and these three tones have the same duration of a quarter and are connected. In standard notation that would be
+  **l** in d4:**l** means (for example) legato here and these three tones have the same duration of a quarter and are connected. In standard notation that would be
   
   ![image](https://github.com/alexpeter-pen/MusicL/assets/118837759/487ad4ec-1e14-4121-a893-fe7fe055e107)
 
@@ -39,3 +39,9 @@ s:a8b8d8p8
 This would mean that the pause is a part of the same rhythmic local group.
 
 All other elements like stress, and accent are added in the same manner.
+
+g4':tr or g4':t means a trill on g in one octave above the predefined or just first (called one-lined) octave if nothing is predefined
+
+Declaration should contain the definition of trill in a form that describes intention, alike
+
+::thrill:cdcd...

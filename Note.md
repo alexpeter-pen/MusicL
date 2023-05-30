@@ -1,7 +1,8 @@
       <tuplet><tone><accidental><duration><transpose>:<attribute-1>:<attribute-2>:...:<attribute-n>:<scope>
   
-   This is a general definition of tone and the attributes that tone may have. The attribute should be declared upfront so it is clear what each letter used means
-   A pattern may consist of multiple tones, where duration is separated, or tuplet grouped
+  This is a general definition of tone and the attributes that tone may have. The attribute should be declared upfront so it is clear what each letter used means
+  
+  A pattern may consist of multiple tones, where duration is separated, or grouped in a tuplet
   
   3g+ag4 b8 p4
 

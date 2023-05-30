@@ -16,6 +16,6 @@ $ Defining encoding necessary to properly read the file
 
 $ Defining a font that is most suitable for visualizing the content
 
-::continuation &lt;filename&gt&.mlq
+::continuation &lt;filename&gt;.mlq
 
 $ The previous file that this file continues. It is assumed that the file has a unique name or that it is in the same folder.

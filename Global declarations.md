@@ -12,6 +12,14 @@ $ Another option for accidentals
 
 $ The above examples are typical. Notice that + and - might not be used easily somewhere else
 
+::author Aleksandar Perisic
+::date 2023-05-05
+::name Land of S
+::location Oslo Norway
+::arrangement ST
+
+$ These above are defining a set of typical attributes one composition may have, you can freely add more to it
+
 $ We can use semi-accidentals too, but it must be specified with the corresponding symbol
 
 ::key C#

@@ -120,3 +120,10 @@ tone:chord:c:minor
 $ Within chords cases may have a different meaning
 
 If a declaration of any kind is omitted, it is either arbitrary or most common.
+
+Unless specified differently all declarations should be a full words. To avoid repetition or to shorten the usage we can declare what shorthand notation is
+
+::key:k
+::trill:r
+
+and similar. Notice that the language assumes a level of context that is not spelled out. For this reason it is necessary to help the reader bz giving at least a hint in the declaration over what the notation, i.e. letter is used for.
